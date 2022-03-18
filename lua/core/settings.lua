@@ -88,7 +88,7 @@ cmd [[
 
 -- Open a terminal pane on the right using :Term
 -- set to 'term://cmd' if windows instead of $SHELL
-cmd [[command Term :botright vsplit term://cmd]]
+cmd [[command Term :botright vsplit term://$SHELL]]
 
 -- Terminal visual tweaks:
 --- enter insert mode when switching to terminal
